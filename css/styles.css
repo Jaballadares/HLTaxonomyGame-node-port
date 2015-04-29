@@ -52,11 +52,21 @@ USAGE: @include order(2);
   margin-top: .37em; }
   .triangle:hover {
     cursor: pointer; }
+  @media (max-width: 767px) {
+    .triangle {
+      margin-top: 4%;
+      margin-left: 4%;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-right: 15px solid white; } }
 
 .backBtn {
   color: white;
   font-family: "Source Sans Pro", sans-serif;
   padding-left: .8em; }
+  @media (max-width: 767px) {
+    .backBtn {
+      font-size: 3em; } }
 
 .playerName {
   font-family: "Source Sans Pro", sans-serif;
@@ -88,7 +98,18 @@ USAGE: @include order(2);
   width: 45%; }
   @media (max-width: 767px) {
     #input_firstName, #input_lastName, #input_email {
-      width: 90%; } }
+      width: 90%;
+      font-size: 4em;
+      margin-top: 0; } }
+
+@media (max-width: 767px) {
+  #input_firstName {
+    width: 90%;
+    height: 50%; } }
+
+@media (max-width: 767px) {
+  #input_lastName {
+    display: none; } }
 
 @media (min-width: 980px) and (max-width: 1199px) {
   #input_email {
@@ -101,7 +122,8 @@ USAGE: @include order(2);
 @media (max-width: 767px) {
   #input_email {
     display: block;
-    margin: 1em auto 0 auto; } }
+    margin: 1em auto 0 auto;
+    display: none; } }
 
 .next {
   background: rgba(255, 255, 255, 0.4);
@@ -121,7 +143,42 @@ USAGE: @include order(2);
     background: white; }
   @media (max-width: 468px) {
     .next {
-      width: 80%; } }
+      width: 80%;
+      font-size: 4em; } }
+  @media (min-width: 1200px) and (max-width: 2000px) {
+    .next {
+      display: block;
+      margin-top: 1em;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0; } }
+
+.circles {
+  width: 70%;
+  margin: 0 35% 40%; }
+
+.big-circle {
+  width: 60%;
+  position: absolute;
+  top: -10%;
+  height: 40%; }
+  @media (min-width: 768px) and (max-width: 979px) {
+    .big-circle {
+      width: 70%; } }
+  .big-circle:after {
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%; }
+
+.terms-list {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 40%;
+  padding-top: 1.5em;
+  padding-left: 2em; }
 
 html {
   background: url("../img/background.svg") no-repeat center center fixed;

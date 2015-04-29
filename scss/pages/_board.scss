@@ -1,0 +1,31 @@
+.circles {
+  width: 70%;
+  margin: 0 35% 40%;
+}
+
+.big-circle {
+  width: 60%;
+  position: absolute;
+  top: -10%;
+  height: 40%;
+  @include breakpoint(medium) {
+    width: 70%;
+  }
+  &:after {
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+    background: rgba(255,255,255,0.4);
+    border-radius: 50%;
+  }
+}
+
+
+.terms-list {
+  color: white;
+  font-family: $body-font;
+  width: 40%;
+  padding-top: 1.5em;
+  padding-left: 2em;
+}

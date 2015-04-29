@@ -21,12 +21,22 @@
   &:hover {
     cursor: pointer;
   }
+  @include breakpoint(small) {
+    margin-top: 4%;
+    margin-left: 4%;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid white;
+  }
 }
 
 .backBtn {
   color: white;
   font-family: $body-font;
   padding-left: .8em;
+  @include breakpoint(small) {
+    font-size: 3em;
+  }
 }
 
 .playerName {
@@ -60,6 +70,21 @@
   width: 45%;
   @include breakpoint(small) {
     width: 90%;
+    font-size: 4em;
+    margin-top: 0;
+  }
+}
+
+#input_firstName  {
+  @include breakpoint(small) {
+    width: 90%;
+    height: 50%;
+  }
+}
+
+#input_lastName  {
+  @include breakpoint(small) {
+    display: none;
   }
 }
 
@@ -75,6 +100,7 @@
   @include breakpoint(small) {
   display: block;
   margin: 1em auto 0 auto;
+  display: none;
   }
 }
 
@@ -97,5 +123,13 @@
   }
   @include breakpoint(xSmall) {
     width: 80%;
+    font-size: 4em;
+  }
+  @media (min-width: 1200px) and (max-width: 2000px) {
+  display: block;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
   }
 }
