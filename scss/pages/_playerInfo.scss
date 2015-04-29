@@ -36,6 +36,7 @@
   text-align: center;
   @include breakpoint(small) {
     margin-bottom: 0;
+    display: none;
   }
 }
 .leadGen {

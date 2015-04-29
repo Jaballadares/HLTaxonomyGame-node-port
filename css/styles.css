@@ -65,7 +65,8 @@ USAGE: @include order(2);
   text-align: center; }
   @media (max-width: 767px) {
     .playerName {
-      margin-bottom: 0; } }
+      margin-bottom: 0;
+      display: none; } }
 
 .leadGen {
   margin: 0 auto;
