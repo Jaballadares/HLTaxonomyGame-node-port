@@ -160,7 +160,7 @@ USAGE: @include order(2);
 .big-circle {
   width: 60%;
   position: absolute;
-  top: -10%;
+  top: -15%;
   height: 40%; }
   @media (min-width: 768px) and (max-width: 979px) {
     .big-circle {
@@ -171,6 +171,42 @@ USAGE: @include order(2);
     height: 0;
     padding-bottom: 100%;
     background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%; }
+
+.middle-circle {
+  width: 55%;
+  position: relative;
+  top: 95%;
+  text-align: center;
+  height: 20%;
+  margin: 0 auto; }
+  @media (min-width: 768px) and (max-width: 979px) {
+    .middle-circle {
+      width: 70%; } }
+  .middle-circle:after {
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%; }
+
+.small-circle {
+  width: 20.5%;
+  position: relative;
+  top: 125%;
+  text-align: center;
+  height: 10%;
+  margin: 0 auto; }
+  @media (min-width: 768px) and (max-width: 979px) {
+    .small-circle {
+      width: 70%; } }
+  .small-circle:after {
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+    background: #00abc7;
     border-radius: 50%; }
 
 .terms-list {
