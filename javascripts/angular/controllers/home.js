@@ -1,0 +1,3 @@
+healthLineApp.controller("HomeCtrl", [
+function() {
+}]);

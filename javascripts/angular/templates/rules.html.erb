@@ -1,0 +1,19 @@
+<div ng-controller="RulesCtrl">
+    <div class="transparent-logo"></div>
+    <div class="top-options">
+        <a href="/enter_player" class="pull-left"><i class="icon-left-arrow"></i> Back</a>
+        <a href="/game_setting" class="pull-right"><i class="icon-cog"></i></a>
+    </div>
+    <div class="head">
+        <p class="player-name">Rules</p>
+    </div>
+    <div class="col-lg-11 col-sm-offset-1 rules-list text-center">
+        <ol class="text-left">
+            <li> Choose a medical concept.</li>
+            <li> You have {{$root.game.eventPreviewCountdown()}} seconds to review all the terms on the list before the game starts.</li>
+            <li> Tap on a term from the left and tap on a corresponding slot on the taxonomy board to place your answer. You have {{$root.game.eventGameTimeLimit() / 60}} minutes to complete. If you want to change the answer slot, tap the X on the board to reassign an answer.</li>
+            <li> Prizes will be awarded to the top three players who have the highest score with the shortest time during the event.</li>
+        </ol>
+        <a href="/board" class="btn default-btn">Next</a>
+    </div>
+</div>

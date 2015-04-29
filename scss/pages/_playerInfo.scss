@@ -1,0 +1,100 @@
+.wrapping {
+  width: 100%;
+}
+.backButton {
+  display: inline;
+}
+
+.backLink {
+  text-decoration: none;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid white;
+  position: absolute;
+  vertical-align: middle;
+  margin-top: .37em;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.backBtn {
+  color: white;
+  font-family: $body-font;
+  padding-left: .8em;
+}
+
+.playerName {
+  font-family: $body-font;
+  color: white;
+  font-size: 3.2em;
+  text-align: center;
+  @include breakpoint(small) {
+    margin-bottom: 0;
+  }
+}
+.leadGen {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+#input_firstName, #inputLastName {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#input_firstName, #input_lastName, #input_email {
+  font-family: $body-font;
+  border-radius:  16px;
+  border: none;
+  font-size: 2em;
+  vertical-align: middle;
+  padding: .2em;
+  margin-top: 1em;
+  width: 45%;
+  @include breakpoint(small) {
+    width: 90%;
+  }
+}
+
+#input_email {
+  @include breakpoint(large) {
+  display: block;
+  margin: 1em auto 0 auto;
+  }
+  @include breakpoint(medium) {
+  display: block;
+  margin: 1em auto 0 auto;
+  }
+  @include breakpoint(small) {
+  display: block;
+  margin: 1em auto 0 auto;
+  }
+}
+
+.next {
+  background: rgba(white, 0.4);
+  color: $purple;
+  text-decoration: none;
+  width: 20%;
+  margin-top: 1em;
+  padding: 1.5%;
+  border: none;
+  font-size: 2em;
+  border-radius: 20px;
+  font-family: $body-font;
+  font-weight: lighter;
+  cursor: pointer;
+  display: inline-block;
+  &:hover {
+    background: white;
+  }
+  @include breakpoint(xSmall) {
+    width: 80%;
+  }
+}

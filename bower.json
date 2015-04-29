@@ -1,0 +1,25 @@
+{
+  "name": "selfTaxonomyGame",
+  "version": "0.0.1",
+  "authors": [
+    "jaballadares <jballadares28@gmail.com>"
+  ],
+  "description": "Healthline Taxonomy Game",
+  "main": "index.html",
+  "keywords": [
+    "healthline",
+    "taxonomy"
+  ],
+  "license": "MIT",
+  "homepage": "corp.healthline.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handlebars": "~3.0.3"
+  }
+}

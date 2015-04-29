@@ -1,0 +1,117 @@
+/* ==========================================================================
+  Mixins
+========================================================================== */
+
+
+/**** **** **** **** ****
+ANIMATION -
+USAGE: @include animation(name, fadeIn);
+USAGE: @include animation(duration, .15s);
+USAGE: @include animation(delay, 1s);
+USAGE: @include animation(fill-mode, both);
+**** **** **** **** ****/
+
+@mixin animation($property, $value) {
+  -webkit-animation-#{$property}: $value;
+  -moz-animation-#{$property}: $value;
+  -o-animation-#{$property}: $value;
+  animation-#{$property}: $value;
+}
+
+
+
+
+/**** **** **** **** ****
+BREAKPOINTS -
+USAGE: @include breakpoint(small) {}
+**** **** **** **** ****/
+
+@mixin breakpoint($point) {
+  @if $point == xSmall {
+    @media (max-width: 468px)  { @content; }
+  }
+  @else if $point == small {
+    @media (max-width: 767px)  { @content; }
+  }
+  @else if $point == medium {
+    @media (min-width: 768px) and (max-width: 979px) { @content; }
+  }
+  @else if $point == large {
+    @media (min-width: 980px) and (max-width: 1199px) { @content; }
+  }
+}
+
+
+
+/**** **** **** **** ****
+CLEARFIX -
+USAGE: @include clearfix();
+**** **** **** **** ****/
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+
+/**** **** **** **** ****
+PLACEHOLDER -
+USAGE: @include placeholder(#333);
+**** **** **** **** ****/
+
+@mixin placeholder($color) {
+  &:-moz-placeholder { color: $color; }
+  &::-moz-placeholder { color: $color; }
+  &:-ms-input-placeholder { color: $color; }
+  &::-webkit-input-placeholder { color: $color; }
+}
+
+
+
+/**** **** **** **** ****
+FLEXBOX!
+USAGE: @include flexbox();
+**** **** **** **** ****/
+
+@mixin flexbox() {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+/**** **** **** **** ****
+FLEX
+USAGE: @include flex(1 1 200px);
+**** **** **** **** ****/
+
+@mixin flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex: $values;
+  -webkit-flex: $values;
+  -ms-flex: $values;
+  flex: $values;
+}
+
+
+/**** **** **** **** ****
+ORDER
+USAGE: @include order(2);
+**** **** **** **** ****/
+
+@mixin order($order) {
+  -webkit-box-ordinal-group: $order;
+  -moz-box-ordinal-group: $order;
+  -ms-flex-order: $order;
+  -webkit-order: $order;
+  order: $order;
+}
