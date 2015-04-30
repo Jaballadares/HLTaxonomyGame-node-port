@@ -166,7 +166,7 @@ USAGE: @include order(2);
     .big-circle {
       width: 70%; } }
   .big-circle:after {
-    content: "";
+    content: "Concepts";
     display: block;
     height: 0;
     padding-bottom: 100%;
