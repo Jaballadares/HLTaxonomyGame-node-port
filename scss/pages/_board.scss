@@ -1,18 +1,19 @@
 .circles {
-  width: 70%;
-  margin: 0 35% 40%;
+  width: 100%;
+  margin: -8% 38% 40%;
+  position:fixed;
 }
 
 .big-circle {
   width: 60%;
-  position: absolute;
+  position: fixed;
   top: -15%;
   height: 40%;
   @include breakpoint(medium) {
     width: 70%;
   }
   &:after {
-    content: "Concepts";
+    content: "";
     display: block;
     height: 0;
     padding-bottom: 100%;
@@ -22,12 +23,12 @@
 }
 
 .middle-circle {
-  width: 55%;
-  position: relative;
-  top: 90%;
+  width: 40%;
+  position: fixed;
+  top: 8%;
   text-align: center;
   height: 20%;
-  margin: 0 auto;
+  margin-left: 10%;
   @include breakpoint(medium) {
     width: 70%;
   }
@@ -43,8 +44,8 @@
 
 .small-circle {
   width: 22%;
-  position: relative;
-  top: 115%;
+  position: fixed;
+  top: 30%;
   text-align: center;
   height: 10%;
   margin: 0 auto;

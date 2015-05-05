@@ -9,6 +9,14 @@
 <body>
   <div class="terms-list">
     <h3>Select a medical concept</h3>
+    <script id="medical_concepts_template" type="text/x-handlebars-template">
+      <div id="medical_concept">{{medical_concept}}</div>
+        
+        var source = $("#medical_concepts_template").html();
+        var template = Handlebars.compile(source);
+        var context = {medical_concept: "Heart Attack"};
+        var html = template(context);
+    </script>
   </div>
 
   <div class="circles">
@@ -18,6 +26,7 @@
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="bower_components/handlebars/handlebars.js"></script>
   <script src="javascripts/john.js"></script>
   </body>
 </body>
