@@ -195,10 +195,10 @@ USAGE: @include order(2);
 .small-circle {
   width: 22%;
   position: fixed;
-  top: 30%;
+  top: 28%;
   text-align: center;
   height: 10%;
-  margin: 0 auto; }
+  margin-left: 19%; }
   @media (min-width: 768px) and (max-width: 979px) {
     .small-circle {
       width: 70%; } }
@@ -216,6 +216,14 @@ USAGE: @include order(2);
   width: 40%;
   padding-top: 1.5em;
   padding-left: 2em; }
+
+.concept {
+  background: #8f4399;
+  width: 40%;
+  border-radius: 25px;
+  text-align: center;
+  padding: .5em;
+  vertical-align: middle; }
 
 html {
   background: url("../img/background.svg") no-repeat center center fixed;

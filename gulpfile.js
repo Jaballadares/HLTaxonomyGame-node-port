@@ -11,7 +11,7 @@ gulp.task('webserver', function() {
 gulp.task('watch', function() {
     gulp.watch('./css/*.css', ['css']);
     gulp.watch('./*.html', ['html']);
-    gulp.watch('./js/*.js', ['js']);
+    gulp.watch('./javascripts/*.js', ['js']);
 });
 
 gulp.task('html', function() {
@@ -25,7 +25,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('js', function() {
-    gulp.src('./js/*.js')
+    gulp.src('./javascripts/*.js')
         .pipe(connect.reload());
 });
 

@@ -9,15 +9,11 @@
 <body>
   <div class="terms-list">
     <h3>Select a medical concept</h3>
-    <script id="medical_concepts_template" type="text/x-handlebars-template">
-      <div id="medical_concept">{{medical_concept}}</div>
-        
-        var source = $("#medical_concepts_template").html();
-        var template = Handlebars.compile(source);
-        var context = {medical_concept: "Heart Attack"};
-        var html = template(context);
-    </script>
+      <div class="concept"></div>
   </div>
+<script id="medicalConcepts" type="x-handlebars-template">
+{{medicalConcepts}}
+</script>
 
   <div class="circles">
     <div class="big-circle">
