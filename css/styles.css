@@ -161,8 +161,9 @@ USAGE: @include order(2);
 .big-circle {
   width: 60%;
   position: fixed;
-  top: -15%;
-  height: 40%; }
+  top: 0;
+  height: 40%;
+  left: 35%; }
   @media (min-width: 768px) and (max-width: 979px) {
     .big-circle {
       width: 70%; } }
@@ -177,7 +178,7 @@ USAGE: @include order(2);
 .middle-circle {
   width: 40%;
   position: fixed;
-  top: 8%;
+  top: 18%;
   text-align: center;
   height: 20%;
   margin-left: 10%; }
@@ -195,7 +196,7 @@ USAGE: @include order(2);
 .small-circle {
   width: 22%;
   position: fixed;
-  top: 28%;
+  top: 34%;
   text-align: center;
   height: 10%;
   margin-left: 19%; }
@@ -224,6 +225,17 @@ USAGE: @include order(2);
   text-align: center;
   padding: .5em;
   vertical-align: middle; }
+
+.circle-titles {
+  font-size: 1em;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #8f4399;
+  text-align: center;
+  position: fixed;
+  top: 2em;
+  margin: 0 auto; }
+  .circle-titles .title-big-circle {
+    text-align: center; }
 
 html {
   background: url("../img/background.svg") no-repeat center center fixed;

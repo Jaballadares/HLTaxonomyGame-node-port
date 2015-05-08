@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Healthline Taxonomy Game</title>
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Monoton' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/jquery.mCustomScrollbar.css">
-</head>
-<body>
-  <div class="terms-list">
-    <h3>Select a medical concept</h3>
-      <div class="concept"></div>
-  </div>
-<script id="medicalConcepts" type="x-handlebars-template">
-{{medicalConcepts}}
-</script>
 
-  <div class="circles">
-    <div class="big-circle">
-      <div class="middle-circle"></div>
-      <div class="small-circle"></div>
+<head>
+    <title>Healthline Taxonomy Game</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Monoton' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+    <div class="terms-list">
+        <h3>Select a medical concept</h3>
+        <div class="concept"></div>
     </div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="bower_components/handlebars/handlebars.js"></script>
-  <script src="javascripts/john.js"></script>
-  </body>
+    <script id="medicalConcepts" type="x-handlebars-template">
+        {{medicalConcepts}}
+    </script>
+
+    <div class="circles">
+        <div class="big-circle">
+            <div class="middle-circle"></div>
+            <div class="small-circle"></div>
+            <div class="circle-titles">
+                <p class="title-big-circle">Concept Relationships</p>
+                <p class="title-middle-circle">Concept Attributes</p>
+                <p class="title-small-circle">
+                    Concept
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <script src="javascripts/john.js"></script>
 </body>
+</body>
+
 </html>
