@@ -207,6 +207,24 @@ body {
   padding: .5em;
   vertical-align: middle; }
 
+.answer {
+  background: #8f4399;
+  width: 30vh;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  padding: .5em;
+  margin-top: 2em; }
+
+#test {
+  background: white;
+  width: 30vh;
+  border-radius: 25px;
+  padding: .5em;
+  text-align: center;
+  margin: 0 auto; }
+
 html {
   background: url("../img/background.svg") no-repeat center center fixed;
   width: 100%;
