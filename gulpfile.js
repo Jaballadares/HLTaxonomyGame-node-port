@@ -1,5 +1,7 @@
 var gulp = require('gulp'),
-    connect = require('gulp-connect');
+    connect = require('gulp-connect'),
+    sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('webserver', function() {
     connect.server({
@@ -11,7 +13,7 @@ gulp.task('webserver', function() {
 gulp.task('watch', function() {
     gulp.watch('./css/*.css', ['css']);
     gulp.watch('./*.html', ['html']);
-    gulp.watch('./javascripts/*.js', ['js']);
+    gulp.watch('./js/*.js', ['js']);
 });
 
 gulp.task('html', function() {
@@ -24,9 +26,20 @@ gulp.task('css', function() {
     .pipe(connect.reload());
 });
 
+gulp.task('sass', function () {
+  gulp.src('./scss/**/*.scss')
+    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(gulp.dest('./css'))
+    .pipe(connect.reload());
+});
+
+gulp.task('sass:watch', function () {
+  gulp.watch('./scss/**/*.scss', ['sass']);
+});
+
 gulp.task('js', function() {
-    gulp.src('./javascripts/*.js')
+    gulp.src('./js/*.js')
         .pipe(connect.reload());
 });
 
-gulp.task('default', ['webserver', 'watch', 'js']);
+gulp.task('default', ['webserver', 'watch', 'js', 'sass', 'sass:watch']);

@@ -115,10 +115,12 @@ USAGE: @include order(2);
   #input_email {
     display: block;
     margin: 1em auto 0 auto; } }
+
 @media (min-width: 768px) and (max-width: 979px) {
   #input_email {
     display: block;
     margin: 1em auto 0 auto; } }
+
 @media (max-width: 767px) {
   #input_email {
     display: block;
@@ -153,63 +155,42 @@ USAGE: @include order(2);
       margin-right: auto;
       margin-bottom: 0; } }
 
-.circles {
-  width: 100%;
-  margin: -8% 38% 40%;
-  position: fixed; }
+body {
+  font-family: "Source Sans Pro", sans-serif; }
 
-.big-circle {
-  width: 60%;
-  position: fixed;
+.circle {
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
   top: 0;
-  height: 40%;
-  left: 35%; }
-  @media (min-width: 768px) and (max-width: 979px) {
-    .big-circle {
-      width: 70%; } }
-  .big-circle:after {
-    content: "";
-    display: block;
-    height: 0;
-    padding-bottom: 100%;
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 50%; }
+  bottom: 0;
+  left: 0;
+  right: 0; }
 
-.middle-circle {
-  width: 40%;
-  position: fixed;
-  top: 18%;
-  text-align: center;
-  height: 20%;
-  margin-left: 10%; }
-  @media (min-width: 768px) and (max-width: 979px) {
-    .middle-circle {
-      width: 70%; } }
-  .middle-circle:after {
-    content: "";
-    display: block;
-    height: 0;
-    padding-bottom: 100%;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 50%; }
+#b_circle {
+  background: rgba(255, 255, 255, 0.4);
+  width: 100vh;
+  height: 100vh;
+  margin-right: 7vh;
+  overflow: hidden; }
+  @media (max-width: 767px) {
+    #b_circle {
+      margin-right: 0vh; } }
+  #b_circle p {
+    text-align: center;
+    color: #8f4399; }
 
-.small-circle {
-  width: 22%;
-  position: fixed;
-  top: 34%;
-  text-align: center;
-  height: 10%;
-  margin-left: 19%; }
-  @media (min-width: 768px) and (max-width: 979px) {
-    .small-circle {
-      width: 70%; } }
-  .small-circle:after {
-    content: "";
-    display: block;
-    height: 0;
-    padding-bottom: 100%;
-    background: #00abc7;
-    border-radius: 50%; }
+#m_circle {
+  background: rgba(255, 255, 255, 0.4);
+  width: 70vh;
+  height: 70vh;
+  margin: 15vh; }
+
+#s_circle {
+  background: rgba(255, 255, 255, 0.4);
+  width: 25vh;
+  height: 25vh;
+  margin: 22vh; }
 
 .terms-list {
   color: white;
@@ -225,17 +206,6 @@ USAGE: @include order(2);
   text-align: center;
   padding: .5em;
   vertical-align: middle; }
-
-.circle-titles {
-  font-size: 1em;
-  font-family: "Source Sans Pro", sans-serif;
-  color: #8f4399;
-  text-align: center;
-  position: fixed;
-  top: 2em;
-  margin: 0 auto; }
-  .circle-titles .title-big-circle {
-    text-align: center; }
 
 html {
   background: url("../img/background.svg") no-repeat center center fixed;
@@ -293,5 +263,3 @@ html {
       background: white; }
   .buttons .start {
     margin-right: 3em; }
-
-/*# sourceMappingURL=styles.css.map */

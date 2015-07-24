@@ -1,67 +1,48 @@
-.circles {
-  width: 100%;
-  margin: -8% 38% 40%;
-  position:fixed;
+body {
+  font-family: $body-font;
 }
 
-.big-circle {
-  width: 60%;
-  position: fixed;
+.circle {
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
   top: 0;
-  height: 40%;
-  left: 35%;
-  @include breakpoint(medium) {
-    width: 70%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+#b_circle {
+  background: rgba(255,255,255,0.4);
+  width: 100vh;
+  height: 100vh;
+  margin-right: 7vh;
+  overflow:hidden;
+  @include breakpoint(small) {
+    margin-right: 0vh;
   }
-  &:after {
-    content: "";
-    display: block;
-    height: 0;
-    padding-bottom: 100%;
-    background:rgba(255,255,255,0.4);
-    border-radius: 50%;
+
+  p {
+    text-align: center;
+    color: $purple;
   }
 }
 
-.middle-circle {
-  width: 40%;
-  position: fixed;
-  top: 18%;
-  text-align: center;
-  height: 20%;
-  margin-left: 10%;
-  @include breakpoint(medium) {
-    width: 70%;
-  }
-  &:after {
-    content: "";
-    display: block;
-    height: 0;
-    padding-bottom: 100%;
-    background: rgba(255,255,255,0.2);
-    border-radius: 50%;
-  }
+#m_circle {
+  background: rgba(255, 255, 255, 0.4);
+  width: 70vh;
+  height: 70vh;
+  margin: 15vh;
 }
 
-.small-circle {
-  width: 22%;
-  position: fixed;
-  top: 34%;
-  text-align: center;
-  height: 10%;
-  margin-left: 19%;
-  @include breakpoint(medium) {
-    width: 70%;
-  }
-  &:after {
-    content: "";
-    display: block;
-    height: 0;
-    padding-bottom: 100%;
-    background: $teal;
-    border-radius: 50%;
-  }
+#s_circle {
+  background: rgba(255,255,255,0.4);
+  width: 25vh;
+  height: 25vh;
+  margin: 22vh;
 }
+
 
 .terms-list {
   color: white;
@@ -80,15 +61,4 @@
   vertical-align: middle;
 }
 
-.circle-titles {
-  font-size: 1em;
-  font-family: $body-font;
-  color: $purple;
-  text-align:center;
-  position: fixed;
-  top: 2em;
-  margin: 0 auto;
-  .title-big-circle {
-    text-align: center;
-  }
-}
+
