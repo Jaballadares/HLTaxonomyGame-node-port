@@ -206,6 +206,9 @@ body {
   text-align: center;
   padding: .5em;
   vertical-align: middle; }
+  .concept:hover {
+    background: #7e3b87;
+    cursor: pointer; }
 
 .answer {
   background: #8f4399;
@@ -224,6 +227,25 @@ body {
   padding: .5em;
   text-align: center;
   margin: 0 auto; }
+
+.placeholder {
+  width: 30vh;
+  border-radius: 25px;
+  padding: .5em;
+  text-align: center;
+  margin: 0 auto; }
+  .placeholder:hover {
+    cursor: pointer; }
+
+/* The following CSS is also used in the "concept" class selector */
+.concept_plucked {
+  width: 40%;
+  border-radius: 25px;
+  text-align: center;
+  padding: .5em;
+  border: 1px solid white;
+  color: #8f4399;
+  background: rgba(255, 255, 255, 0.4); }
 
 html {
   background: url("../img/background.svg") no-repeat center center fixed;

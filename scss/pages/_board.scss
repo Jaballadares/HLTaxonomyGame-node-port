@@ -59,6 +59,10 @@ body {
   text-align: center;
   padding: .5em;
   vertical-align: middle;
+  &:hover {
+    background: darken($purple, 5%);
+    cursor: pointer;
+  }
 }
 
 .answer {
@@ -81,4 +85,26 @@ body {
   margin: 0 auto;
 }
 
+.placeholder {
+  width: 30vh;
+  border-radius: 25px;
+  padding: .5em;
+  text-align: center;
+  margin: 0 auto;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+/* The following CSS is also used in the "concept" class selector */
+
+.concept_plucked {
+  width: 40%;
+  border-radius: 25px;
+  text-align: center;
+  padding: .5em;
+  border: 1px solid white;
+  color: $purple;
+  background: rgba(255, 255, 255, 0.4);
+}
 
