@@ -21,15 +21,21 @@ function elt(name, attributes) {
   return node;
 }
 
+
 function load() {
   $.ajax({
     dataType: "json",
     url: "./hltaxonomy.json",
     success: function(data){
       for(var i=0;i < data.length; i++){
-        var myData = data[i];
-        console.log(myData);
-console.log(data[i]["Medical Concept"]);
+        var medicalConcept = data[i].medicalConcept;
+        var concept = data[i].Concept;
+        var term = data[i].Term;
+        var conceptType = data[i].conceptType;
+
+console.log(data[i].conceptType);
+/*console.log(concept);
+console.log(medicalConcept);*/
 
 }
     },
