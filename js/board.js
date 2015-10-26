@@ -33,7 +33,7 @@ function load() {
         var term = data[i].Term;
         var conceptType = data[i].conceptType;
 
-console.log(data[i].conceptType);
+console.log(data[i]);
 /*console.log(concept);
 console.log(medicalConcept);*/
 

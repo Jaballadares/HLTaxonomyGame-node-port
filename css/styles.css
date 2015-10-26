@@ -233,7 +233,8 @@ body {
   border-radius: 25px;
   padding: .5em;
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background: white; }
   .placeholder:hover {
     cursor: pointer; }
 
@@ -303,3 +304,6 @@ html {
       background: white; }
   .buttons .start {
     margin-right: 3em; }
+
+.board {
+  display: none; }

@@ -1,0 +1,758 @@
+[
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Alternative Medicines",
+    "Term": "Meditation",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Symptoms",
+    "Term": "Radiating Chest Pain",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Nutritional Supplements",
+    "Term": "Coenzyme Q10",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Diagnostic Procedures",
+    "Term": "Angioplasty",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Parent Terms",
+    "Term": "Disorder of Heart Muscle",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Treatments",
+    "Term": "Heart Bypass Surgery",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Children Terms",
+    "Term": "Microinfarct of Heart",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Medications",
+    "Term": "Atenolol",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Complications",
+    "Term": "Congestive Heart Failure",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Risk Factors",
+    "Term": "Tobacco Use",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Risk Factors",
+    "Term": "High Cholesterol",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Preventions",
+    "Term": "Blood Pressure Management",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Physician Specialist",
+    "Term": "Cardiologist",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Synonyms",
+    "Term": "Microinfarct of Heart",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Medical Name",
+    "Term": "Myocardial Infarction",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Semantic Type",
+    "Term": "Disease or Syndrome",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Heart Attack",
+    "Concept": "Medical Codes",
+    "Term": "ICD9: 410.9",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Alternative Medicines",
+    "Term": "none",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Symptoms",
+    "Term": "Cysts",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Nutritional Supplements",
+    "Term": "Tea Tree Oil",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Diagnostic Procedures",
+    "Term": "Physical Exam",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Parent Terms",
+    "Term": "none",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Treatments",
+    "Term": "Cyst Drainage",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Children Terms",
+    "Term": "Tropical Acne",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Medications",
+    "Term": "Benzoyl Peroxide",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Complications",
+    "Term": "Social Problems",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Complications",
+    "Term": "Scarring",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Risk Factors",
+    "Term": "Hormonal Changes",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Preventions",
+    "Term": "Good Skin Hygiene",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Physician Specialist",
+    "Term": "Dermatologist",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Physician Specialist",
+    "Term": "Internist",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Synonyms",
+    "Term": "Pimples",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Medical Name",
+    "Term": "Acne Vulgaris",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Semantic Type",
+    "Term": "Disease",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Acne",
+    "Concept": "Medical Codes",
+    "Term": "ICD10: L70.9",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Alternative Medicines",
+    "Term": "none",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Symptoms",
+    "Term": "Blisters",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Symptoms",
+    "Term": "Fever",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Nutritional Supplements",
+    "Term": "None",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Diagnostic Procedures",
+    "Term": "Antibody Test",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Parent Terms",
+    "Term": "Infection",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Treatments",
+    "Term": "Oatmeal Bath",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Children Terms",
+    "Term": "Congenital Varicella Syndrome",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Medications",
+    "Term": "Benadryl",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Complications",
+    "Term": "Pneumonia",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Complications",
+    "Term": "Skin Infections",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Risk Factors",
+    "Term": "Contact with Infected Person",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Preventions",
+    "Term": "Varicella Vaccine",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Physician Specialist",
+    "Term": "Family Practice Physician",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Synonyms",
+    "Term": "Chickenpox",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Medical Name",
+    "Term": "Varicella",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Semantic Type",
+    "Term": "Chicken Pox",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Chicken Pox",
+    "Concept": "Medical Codes",
+    "Term": "ICD10: B01.9",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Alternative Medicines",
+    "Term": "Acupuncture",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Symptoms",
+    "Term": "Blurred Vision",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Symptoms",
+    "Term": "Frequent Urination",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Nutritional Supplements",
+    "Term": "Alfalfa",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Diagnostic Procedures",
+    "Term": "Hemoglobin A1C Measurement",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Parent Terms",
+    "Term": "Diabetes",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Treatments",
+    "Term": "Control Blood Sugar",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Children Terms",
+    "Term": "Diabetes Mellitus with Gangrene",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Medications",
+    "Term": "Metformin",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Complications",
+    "Term": "Peripheral Vascular Disease",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Risk Factors",
+    "Term": "Family History",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Preventions",
+    "Term": "Regular Exercise",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Preventions",
+    "Term": "Maintain Healthy Weight",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Physician Specialist",
+    "Term": "Endocrinologist",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Synonyms",
+    "Term": "Adult Onset Diabetes",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Medical Name",
+    "Term": "Diabetes Mellitus",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Semantic Type",
+    "Term": "Chicken Pox",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Diabetes Type II",
+    "Concept": "Medical Codes",
+    "Term": "ICD10: E11.9",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Alternative Medicines",
+    "Term": "Hydrotherapy",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Symptoms",
+    "Term": "Limited Range of Motion",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Symptoms",
+    "Term": "Chronic Join Pain",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Nutritional Supplements",
+    "Term": "Glucosamine",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Diagnostic Procedures",
+    "Term": "Joint X-Ray",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Parent Terms",
+    "Term": "none",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Treatments",
+    "Term": "Control Blood Sugar",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Children Terms",
+    "Term": "Osteoarthritis Ankle",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Medications",
+    "Term": "Metformin",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Complications",
+    "Term": "Peripheral Vascular Disease",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Risk Factors",
+    "Term": "Family History",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Preventions",
+    "Term": "Regular Exercise",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Preventions",
+    "Term": "Maintain Healthy Weight",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Physician Specialist",
+    "Term": "Endocrinologist",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Synonyms",
+    "Term": "Degenerative Joint Disease",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Medical Name",
+    "Term": "Osteoarthritis",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Semantic Type",
+    "Term": "none",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Osteoarthritis",
+    "Concept": "Medical Codes",
+    "Term": "ICD10: M19.90",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Alternative Medicines",
+    "Term": "none",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Symptoms",
+    "Term": "Abnormal Hearth Rhythm",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Symptoms",
+    "Term": "Paralysis",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Nutritional Supplements",
+    "Term": "Folic Acid",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Diagnostic Procedures",
+    "Term": "Angiography",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Parent Terms",
+    "Term": "none",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Treatements",
+    "Term": "Angioplasty",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Children Terms",
+    "Term": "none",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Medications",
+    "Term": "Heparin",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Complications",
+    "Term": "Deep Vein Thrombosis",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Risk Factors",
+    "Term": "Family History",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Preventions",
+    "Term": "Limit Alcohol Use",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Preventions",
+    "Term": "Smoking Cessation",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Physician Specialist",
+    "Term": "Neurologist",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Synonyms",
+    "Term": "Brain Attack",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Medical Name",
+    "Term": "Cerbrovascular Accident",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Semantic Type",
+    "Term": "none",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Stroke",
+    "Concept": "Medical Codes",
+    "Term": "ICD10: 167.2",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Alternative Medicines",
+    "Term": "Acupuncture",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Symptoms",
+    "Term": "Labored Breathing",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Symptoms",
+    "Term": "Wheezing",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Nutritional Supplements",
+    "Term": "Eucalyptus Oil",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Diagnostic Procedures",
+    "Term": "Chest X-Ray",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Diagnostic Procedures",
+    "Term": "Lung Function Test",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Parent Terms",
+    "Term": "Disorders of Respiratory System",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Treatments",
+    "Term": "Nebulizer Therapy",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Children Terms",
+    "Term": "Acute Asthma",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Medications",
+    "Term": "Albuterol",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Complications",
+    "Term": "Deep Vein Thrombosis",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Risk Factors",
+    "Term": "Exposure to 2nd Hand Smoke",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Preventions",
+    "Term": "Avoid Known Allergies",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Preventions",
+    "Term": "Smoking Cessation",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Physician Specialist",
+    "Term": "Pulmonologist",
+    "conceptType": "concept_relationships"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Synonyms",
+    "Term": "Brain Attack",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Medical Name",
+    "Term": "Asthma",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Semantic Type",
+    "Term": "none",
+    "conceptType": "concept_attributes"
+  },
+  {
+    "medicalConcept": "Asthma",
+    "Concept": "Medical Codes",
+    "Term": "ICD10: J45.909",
+    "conceptType": "concept_attributes"
+  }
+]

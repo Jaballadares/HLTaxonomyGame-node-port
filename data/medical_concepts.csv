@@ -1,0 +1,127 @@
+Medical Concept,Concept,Term,Concept Type
+Heart Attack, Alternative Medicines, Meditation, concept_relationships
+Heart Attack, Symptoms, Radiating Chest Pain, concept_relationships
+Heart Attack, Nutritional Supplements, Coenzyme Q10, concept_relationships
+Heart Attack, Diagnostic Procedures, Angioplasty, concept_relationships
+Heart Attack, Parent Terms, Disorder of Heart Muscle, concept_relationships
+Heart Attack, Treatments, Heart Bypass Surgery, concept_relationships
+Heart Attack, Children Terms, Microinfarct of Heart, concept_relationships
+Heart Attack, Medications, Atenolol, concept_relationships
+Heart Attack, Complications, Congestive Heart Failure, concept_relationships
+Heart Attack, Risk Factors, Tobacco Use, concept_relationships
+Heart Attack, Risk Factors, High Cholesterol, concept_relationships
+Heart Attack, Preventions, Blood Pressure Management, concept_relationships
+Heart Attack, Physician Specialist, Cardiologist, concept_relationships
+Heart Attack, Synonyms, Acute Myocardial Infarction, concept_attributes
+Heart Attack, Medical Name, Myocardial Infarction, concept_attributes
+Heart Attack, Semantic Type, Disease or Syndrome, concept_attributes
+Heart Attack, Medical Codes, ICD9: 410.9, concept_attributes
+Acne, Alternative Medicines, none, concept_relationships
+Acne, Symptoms, Cysts, concept_relationships
+Acne, Nutritional Supplements, Tea Tree Oil, concept_relationships
+Acne, Diagnostic Procedures, Physical Exam, concept_relationships
+Acne, Parent Terms, none, concept_relationships
+Acne, Treatments, Cyst Drainage, concept_relationships
+Acne, Children Terms, Topical Acne, concept_relationships
+Acne, Medications, Benzoyl Peroxide, concept_relationships
+Acne, Complications, Social Problems, concept_relationships
+Acne, Complications, Scarring, concept_relationships
+Acne, Risk Factors, Hormonal Changes, concept_relationships
+Acne, Preventions, Good Skin Hygiene, concept_relationships
+Acne, Physician Specialist, Dermatologist, concept_relationships
+Acne, Physician Specialist, Internist, concept_relationships
+Acne, Synonyms, Pimples, concept_attributes
+Acne, Medical Name, Acne Vulgaris, concept_attributes
+Acne, Semantic Type, Disease, concept_attributes
+Acne, Medical Codes, ICD10: L70.9, concept_attributes
+Chicken Pox, Alternative Medicines, none, concept_relationships
+Chicken Pox, Symptoms, Blisters, concept_relationships
+Chicken Pox, Symptoms, Fever, concept_relationships
+Chicken Pox, Nutritional Supplements, None, concept_relationships
+Chicken Pox, Diagnostic Procedures, Antibody Test, concept_relationships
+Chicken Pox, Parent Terms, Infection, concept_relationships
+Chicken Pox, Treatments, Oatmeal Bath, concept_relationships
+Chicken Pox, Children Terms, Congenital Varicella Syndrome, concept_relationships
+Chicken Pox, Medications, Benadryl, concept_relationships
+Chicken Pox, Complications, Pneumonia, concept_relationships
+Chicken Pox, Complications, Skin Infections, concept_relationships
+Chicken Pox, Risk Factors, Contact with Infected Person, concept_relationships
+Chicken Pox, Preventions, Varicella Vaccine, concept_relationships
+Chicken Pox, Physician Specialist, Family Practice Physician, concept_relationships
+Chicken Pox, Synonyms, Chickenpox, concept_attributes
+Chicken Pox, Medical Name, Varicella, concept_attributes
+Chicken Pox, Semantic Type, Chicken Pox, concept_attributes
+Chicken Pox, Medical Codes, ICD10: B01.9, concept_attributes
+Diabetes Type II, Alternative Medicines, Acupuncture, concept_relationships
+Diabetes Type II, Symptoms, Blurred Vision, concept_relationships
+Diabetes Type II, Symptoms, Frequent Urination, concept_relationships
+Diabetes Type II, Nutritional Supplements, Alfalfa, concept_relationships
+Diabetes Type II, Diagnostic Procedures, Hemoglobin A1C Measurement, concept_relationships
+Diabetes Type II, Parent Terms, Diabetes, concept_relationships
+Diabetes Type II, Treatments, Control Blood Sugar, concept_relationships
+Diabetes Type II, Children Terms, Diabetes Mellitus with Gangrene, concept_relationships
+Diabetes Type II, Medications, Metformin, concept_relationships
+Diabetes Type II, Complications, Peripheral Vascular Disease, concept_relationships
+Diabetes Type II, Risk Factors, Family History, concept_relationships
+Diabetes Type II, Preventions, Regular Exercise, concept_relationships
+Diabetes Type II, Preventions, Maintain Healthy Weight, concept_relationships
+Diabetes Type II, Physician Specialist, Endocrinologist, concept_relationships
+Diabetes Type II, Synonyms, Adult Onset Diabetes, concept_attributes
+Diabetes Type II, Medical Name, Diabetes Mellitus, concept_attributes
+Diabetes Type II, Semantic Type, Chicken Pox, concept_attributes
+Diabetes Type II, Medical Codes, ICD10: E11.9, concept_attributes
+Osteoarthritis, Alternative Medicines, Hydrotherapy, concept_relationships
+Osteoarthritis, Symptoms, Limited Range of Motion, concept_relationships
+Osteoarthritis, Symptoms, Chronic Join Pain, concept_relationships
+Osteoarthritis, Nutritional Supplements, Glucosamine, concept_relationships
+Osteoarthritis, Diagnostic Procedures, Joint X-Ray, concept_relationships
+Osteoarthritis, Parent Terms, none, concept_relationships
+Osteoarthritis, Treatments, Physical Therapy, concept_relationships
+Osteoarthritis, Children Terms, Osteoarthritis Ankle, concept_relationships
+Osteoarthritis, Medications, Metformin, concept_relationships
+Osteoarthritis, Complications, Sleep Disruption, concept_relationships
+Osteoarthritis, Risk Factors, Family History, concept_relationships
+Osteoarthritis, Preventions, Regular Exercise, concept_relationships
+Osteoarthritis, Preventions, Maintain Healthy Weight, concept_relationships
+Osteoarthritis, Physician Specialist, Orthopedist, concept_relationships
+Osteoarthritis, Synonyms, Degenerative Joint Disease, concept_attributes
+Osteoarthritis, Medical Name, Osteoarthritis, concept_attributes
+Osteoarthritis, Semantic Type, none, concept_attributes
+Osteoarthritis, Medical Codes, ICD10: M19.90, concept_attributes
+Stroke, Alternative Medicines, none, concept_relationships
+Stroke, Symptoms, Abnormal Hearth Rhythm, concept_relationships
+Stroke, Symptoms, Paralysis, concept_relationships
+Stroke, Nutritional Supplements, Folic Acid, concept_relationships
+Stroke, Diagnostic Procedures, Angiography, concept_relationships
+Stroke, Parent Terms, none, concept_relationships
+Stroke, Treatements, Angioplasty, concept_relationships
+Stroke, Children Terms, none, concept_relationships
+Stroke, Medications, Heparin, concept_relationships
+Stroke, Complications, Deep Vein Thrombosis, concept_relationships
+Stroke, Risk Factors, Family History, concept_relationships
+Stroke, Preventions, Limit Alcohol Use, concept_relationships
+Stroke, Preventions, Smoking Cessation, concept_relationships
+Stroke, Physician Specialist, Neurologist, concept_relationships
+Stroke, Synonyms, Brain Attack, concept_attributes
+Stroke, Medical Name, Cerbrovascular Accident, concept_attributes
+Stroke, Semantic Type, none, concept_attributes
+Stroke, Medical Codes, ICD10: 167.2, concept_attributes
+Asthma, Alternative Medicines, Acupuncture, concept_relationships
+Asthma, Symptoms, Labored Breathing, concept_relationships
+Asthma, Symptoms, Wheezing, concept_relationships
+Asthma, Nutritional Supplements, Eucalyptus Oil, concept_relationships
+Asthma, Diagnostic Procedures, Chest X-Ray, concept_relationships
+Asthma, Diagnostic Procedures, Lung Function Test, concept_relationships
+Asthma, Parent Terms, Disorders of Respiratory System, concept_relationships
+Asthma, Treatments, Nebulizer Therapy, concept_relationships
+Asthma, Children Terms, Acute Asthma, concept_relationships
+Asthma, Medications, Albuterol, concept_relationships
+Asthma, Complications, Fatigue, concept_relationships
+Asthma, Risk Factors, Exposure to 2nd Hand Smoke, concept_relationships
+Asthma, Preventions, Avoid Known Allergies, concept_relationships
+Asthma, Preventions, Smoking Cessation, concept_relationships
+Asthma, Physician Specialist, Pulmonologist, concept_relationships
+Asthma, Synonyms, Asthma, concept_attributes
+Asthma, Medical Name, Asthma, concept_attributes
+Asthma, Semantic Type, none, concept_attributes
+Asthma, Medical Codes, ICD10: J45.909, concept_attributes

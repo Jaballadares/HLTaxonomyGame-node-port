@@ -6,20 +6,52 @@
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Monoton' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/jquery.mCustomScrollbar.css">
-  <script src="https://fb.me/react-0.13.2.js"></script>
-  <script src="https://fb.me/JSXTransformer-0.13.2.js"></script>
 </head>
 <body>
-  <div class="wrapper">
+  <!-- <div class="wrapper start-page">
     <h2 class="how">How Well Do You</h2>
     <h1 class="conceptLink">Know Healthcare?</h1>
     <div class="buttons">
-      <a href="enter_player.html" class="start">Start</a>
+      <button class="start">Start</button>
       <a href="game_settings.html" class="ranking">Ranking</a>
     </div>
+  </div> -->
+  <div class="">
+    <!-- board -->
+<div class="terms-list">
+    <h3>Select a medical concept</h3>
+    <!-- <div class="concept" id="concept">Test</div>
+    <div class="concept" id="concept2"></div>
+    <div class="concept" id="concept3"></div> -->
+    <!-- <div class="concept" id="concept2">Testing2</div>
+    <div class="concept" id="concept3">Testing2</div> -->
+
+</div>
+<div class="game_container">
+    <div class="answersContainer">
+        <!-- <div class="answer">Testing</div> -->
+    </div>
+    <div class="circle" id="b_circle">
+        <p>Concept Relationships</p>
+
+        <div id="test" class="placeholder">&nbsp;</div> <!-- placeholder in top ring -->
+
+        <div class="circle" id="m_circle">
+            <p>Concept Attributes</p>
+            <div class="smallInput"></div>
+            <div class="circle" id="s_circle">
+                <p>Concept</p>
+                <div class="placeholder_small">&nbsp;</div> <!-- placeholder in small circle -->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="javascripts/jquery.csv-0.71.js"></script>
+<script src="js/vendor/underscore.js"></script>
+<!-- <script src="js/board.js"></script> -->
   </div>
 <!--  <script type="text/javascript" src="bower_components/handlebars/handlebars.js"></script> -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="javascripts/john.js"></script>
 </body>
 </html>
