@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Healthline Taxonomy Game</title>
   <meta charset="utf-8">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/jquery.mCustomScrollbar.css">
 </head>
+
 <body>
   <!-- <div class="wrapper start-page">
     <h2 class="how">How Well Do You</h2>
@@ -22,39 +24,29 @@
       <p>Time Left:</p>
       <span class="time" id="timeLeft">2:00</span>
     </div>
-<div class="terms-list">
-    <h3>Select a medical concept</h3>
-    <!-- <div class="concept" id="concept">Test</div>
-    <div class="concept" id="concept2"></div>
-    <div class="concept" id="concept3"></div> -->
-    <!-- <div class="concept" id="concept2">Testing2</div>
-    <div class="concept" id="concept3">Testing2</div> -->
 
-</div>
-<div class="game_container">
-    <div class="answersContainer">
+    <div class="master-wrapper">
+    <div class="terms-list">
+      <h3>Select a medical concept</h3>
 
-  <script id="element-concept" type="x-handlebars-template">
-
-  <div class="e">{{this.Concept}}</div>
+      <div class="game_container">
 
 
-  </script>
         <!-- <div class="answer">Testing</div> -->
-    </div>
-    <!-- <div class="circle" id="b_circle">
+      </div>
+      <!-- <div class="circle" id="b_circle">
         <p>Concept Relationships</p>
 
         <div id="test" class="placeholder deg0">&nbsp;</div>
         <div id="test1" class="placeholder deg45">&nbsp;</div>
         <div id="test2" class="placeholder deg90">&nbsp;</div>
         <div id="test3" class="placeholder deg135">&nbsp;</div>
-        <div id="test4" class="placeholder deg180">&nbsp;</div>
-        <!-- placeholder in top ring -->
+        <div id="test4" class="placeholder deg180">&nbsp;</div> -->
+      <!-- placeholder in top ring -->
 
 
 
-        <!-- <div class="circle" id="m_circle">
+      <!-- <div class="circle" id="m_circle">
             <p>Concept Attributes</p>
             <div class="smallInput"></div>
             <div class="circle" id="s_circle">
@@ -62,16 +54,28 @@
                 <div class="btn-wrapper">
                 <button id="start" class="concept">Start</button>
                 </div> -->
-                <!-- placeholder in small circle -->
-            </div>
-        </div>
-    </div> 
-</div>
+
+      <!-- placeholder in small circle -->
+    </div>
+    <div class="answersContainer">
+
+      <script id="element-concept" type="x-handlebars-template">
+
+        <div class="e">{{this.Concept}}</div>
+
+
+      </script>
+    </div>
+  </div> <!-- end master-wrapper -->
+  </div>
+  </div>
+  </div>
 <script type="text/javascript" src="bower_components/jquery/src/jquery.js"></script>
 <script type="text/javascript" src="bower_components/jquery-csv/src/jquery.csv.js"></script>
 <script type="text/javascript" src="bower_components/handlebars/handlebars.js"></script>
 <script src="javascripts/john.js"></script>
 <!-- <script src="js/board.js"></script> -->
-  </div>
+
 </body>
+
 </html>

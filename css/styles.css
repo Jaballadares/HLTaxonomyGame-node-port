@@ -172,7 +172,7 @@ body {
   width: 100vh;
   height: 100vh;
   margin-right: 7vh;
-}
+  overflow: hidden; }
   @media (max-width: 767px) {
     #b_circle {
       margin-right: 0vh; } }
@@ -205,9 +205,7 @@ body {
   border-radius: 25px;
   text-align: center;
   padding: .5em;
-  vertical-align: middle;
-  margin-top: 1rem;
-  }
+  vertical-align: middle; }
   .concept:hover {
     background: #7e3b87;
     cursor: pointer; }
@@ -233,37 +231,12 @@ body {
 .placeholder {
   width: 30vh;
   border-radius: 25px;
-  padding: .3em;
+  padding: .5em;
   text-align: center;
   margin: 0 auto;
   background: white; }
   .placeholder:hover {
-    cursor: pointer;
-  }
-
-.placeholder2 {
-  width: 30vh;
-  border-radius: 25px;
-  padding: .3em;
-  text-align: center;
-  margin: 0 auto;
-  background: white; }
-  .placeholder:hover {
-    cursor: pointer;
-  }
-
-  .answerHolder {
-    width: 30vh;
-    border-radius: 25px;
-    padding: .3em;
-    text-align: center;
-    margin: 0 auto;
-    content: 'answers'
-    background: white; }
-    .placeholder:hover {
-      cursor: pointer;
-    }
-
+    cursor: pointer; }
 
 /* The following CSS is also used in the "concept" class selector */
 .concept_plucked {
@@ -334,21 +307,3 @@ html {
 
 .board {
   display: none; }
-
-.deg0 { transform: translate(50vh); } /* 12em = half the width of the wrapper */
-.deg45 { transform: rotate(45deg) translate(50vh) rotate(-45deg); }
-.deg90 { transform: rotate(90deg) translate(50vh) rotate(-90deg); }
-.deg135 { transform: rotate(135deg) translate(50vh) rotate(-135deg); }
-.deg180 { transform: translate(-50vh); }
-.deg225 { transform: rotate(225deg) translate(50vh) rotate(-225deg); }
-.deg315 { transform: rotate(315deg) translate(50vh) rotate(-315deg); }
-
-.btn-wrapper {
-  margin: 0 auto;
-  text-align: center;
-}
-
-#start {
-  border: none;
-  color: white;
-}
