@@ -21,5 +21,8 @@
   ],
   "dependencies": {
     "handlebars": "~3.0.3"
+  },
+  "resolutions": {
+    "handlebars": "~4.0.3"
   }
 }

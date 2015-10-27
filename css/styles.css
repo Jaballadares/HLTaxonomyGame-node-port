@@ -241,6 +241,30 @@ body {
     cursor: pointer;
   }
 
+.placeholder2 {
+  width: 30vh;
+  border-radius: 25px;
+  padding: .3em;
+  text-align: center;
+  margin: 0 auto;
+  background: white; }
+  .placeholder:hover {
+    cursor: pointer;
+  }
+
+  .answerHolder {
+    width: 30vh;
+    border-radius: 25px;
+    padding: .3em;
+    text-align: center;
+    margin: 0 auto;
+    content: 'answers'
+    background: white; }
+    .placeholder:hover {
+      cursor: pointer;
+    }
+
+
 /* The following CSS is also used in the "concept" class selector */
 .concept_plucked {
   width: 40%;

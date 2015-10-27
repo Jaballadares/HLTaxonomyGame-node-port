@@ -26,7 +26,6 @@ $(document).ready(function(e) {
   });
   $.get('data/medical_concepts.csv', function(data) {
     var objects = $.csv.toObjects(data);
-
     var groupingKey = 'Medical Concept';
     for (var index = 0; index < objects.length; index++) {
       var currentObject = objects[index];
@@ -38,6 +37,7 @@ $(document).ready(function(e) {
         groups[groupName] = group;
       }
       group.push(currentObject);
+
 
     }
     // console.log(groups);
@@ -51,11 +51,23 @@ $(document).ready(function(e) {
 
       // console.log('hi ' + groups[concept][0]['Concept']);
 
-      console.log(groups[concept]);
+      // console.log(groups[concept]);
 
       // var concept2 = document.getElementById('concept2');
       // concept2.innerText = concept;
     }
+  });
+  $('.terms-list').on('click', '.concept', function(e) {
+    var group = $(this).attr('id');
+    $.each(groups[group], function(index, element) {
+      console.log(element.Concept);
+      // $('.answersContainer').append('<div class="placeholder2" id="' + element.Concept + '">' + element.Concept + '</div>');
+
+      //Compile the template​
+      var theTemplateScript = $("#element-concept").html();
+      var theTemplate = Handlebars.compile(theTemplateScript);
+      $(".answersContainer").append(theTemplate(element));
+    });
   });
 });
 
@@ -87,33 +99,33 @@ function populateBoard(concepts) {
 //
 //   return groups;
 // }
-function startTimer(duration, display) {
-  var timer = duration,
-    minutes, seconds;
-
-  setInterval(function() {
-    minutes = parseInt(timer / 60, 10);
-    seconds = parseInt(timer % 60, 10);
-
-    minutes = minutes < 10 ? "0" + minutes : minutes;
-    seconds = seconds < 10 ? "0" + seconds : seconds;
-
-    display.textContent = minutes + ":" + seconds;
-
-    if (--timer < 0) {
-      timer = duration;
-    }
-  }, 1000);
-
-}
-
-var startButton = document.getElementById('start');
-
-startButton.onclick = function() {
-  var twoMinutes = 60 * 2;
-  display = document.getElementById('timeLeft');
-  startTimer(twoMinutes, display);
-};
+// function startTimer(duration, display) {
+//   var timer = duration,
+//     minutes, seconds;
+//
+//   setInterval(function() {
+//     minutes = parseInt(timer / 60, 10);
+//     seconds = parseInt(timer % 60, 10);
+//
+//     minutes = minutes < 10 ? "0" + minutes : minutes;
+//     seconds = seconds < 10 ? "0" + seconds : seconds;
+//
+//     display.textContent = minutes + ":" + seconds;
+//
+//     if (--timer < 0) {
+//       timer = duration;
+//     }
+//   }, 1000);
+//
+// }
+//
+// var startButton = document.getElementById('start');
+//
+// startButton.onclick = function() {
+//   var twoMinutes = 60 * 2;
+//   display = document.getElementById('timeLeft');
+//   startTimer(twoMinutes, display);
+// };
 
 
 // Random Utilities
