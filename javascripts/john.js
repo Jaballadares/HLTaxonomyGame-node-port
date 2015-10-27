@@ -5,12 +5,6 @@
 var groups = {};
 
 $(document).ready(function(e) {
-  // // Populate the board options
-  // $.get('data/medical_concepts.csv').done(function(data) {
-  //   console.log(data);
-  //   var groupedData = groupData(data);
-  //   console.log(groupedData);
-  // });
 
   // Wires the start button to start the game
   $('.start').click(function() {
@@ -18,45 +12,28 @@ $(document).ready(function(e) {
     $('.board').show();
   });
 
-  $('.concept').click(function(e) {
-    var $_e = $(e.currentTarget);
-    var id = $_e.attr('id');
-
-    populateBoard(groups[id]);
-  });
+  // // Populate the board options
   $.get('data/medical_concepts.csv', function(data) {
     var objects = $.csv.toObjects(data);
     var groupingKey = 'Medical Concept';
-    for (var index = 0; index < objects.length; index++) {
-      var currentObject = objects[index];
-      var groupName = currentObject[groupingKey];
-      var group = groups[groupName];
 
-      if (group == null) {
-        group = [];
-        groups[groupName] = group;
-      }
-      group.push(currentObject);
+    objects.forEach(function(element, index, array){
+        var groupName = element['Medical Concept'];
 
+        if (groups[groupName] == null) {
+            groups[groupName] = [];
+        }
 
-    }
-    // console.log(groups);
+        groups[groupName].push(element);
+    });
 
-    var i = 0;
     for (var concept in groups) {
-      // console.log(concept);
-
-      $('.terms-list').append('<div class="concept" id="' + concept + '">' + concept + '</div>');
-      i++;
-
-      // console.log('hi ' + groups[concept][0]['Concept']);
-
-      // console.log(groups[concept]);
-
-      // var concept2 = document.getElementById('concept2');
-      // concept2.innerText = concept;
+      $('.terms-list').append(
+          '<div class="concept" id="' + concept + '">'
+          + concept + '</div>');
     }
   });
+
   $('.terms-list').on('click', '.concept', function(e) {
     var group = $(this).attr('id');
     $.each(groups[group], function(index, element) {
