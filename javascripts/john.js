@@ -4,22 +4,6 @@
 
 var groups = {};
 
-function elt(name, attributes) {
-  var node = document.createElement(name);
-  if (attributes) {
-    for (var attr in attributes)
-      if (attributes.hasOwnProperty(attr))
-        node.setAttribute(attr, attributes[attr]);
-  }
-  for (var i = 2; i < arguments.length; i++) {
-    var child = arguments[i];
-    if (typeof child == "string")
-      child = document.createTextNode(child);
-    node.appendChild(child);
-  }
-  return node;
-}
-
 $(document).ready(function(e) {
   // // Populate the board options
   // $.get('data/medical_concepts.csv').done(function(data) {
@@ -40,7 +24,39 @@ $(document).ready(function(e) {
 
     populateBoard(groups[id]);
   });
+  $.get('data/medical_concepts.csv', function(data) {
+    var objects = $.csv.toObjects(data);
 
+    var groupingKey = 'Medical Concept';
+    for (var index = 0; index < objects.length; index++) {
+      var currentObject = objects[index];
+      var groupName = currentObject[groupingKey];
+      var group = groups[groupName];
+
+      if (group == null) {
+        group = [];
+        groups[groupName] = group;
+      }
+      group.push(currentObject);
+
+    }
+    // console.log(groups);
+
+    var i = 0;
+    for (var concept in groups) {
+      // console.log(concept);
+
+      $('.terms-list').append('<div class="concept" id="' + concept + '">' + concept + '</div>');
+      i++;
+
+      // console.log('hi ' + groups[concept][0]['Concept']);
+
+      console.log(groups[concept]);
+
+      // var concept2 = document.getElementById('concept2');
+      // concept2.innerText = concept;
+    }
+  });
 });
 
 function populateBoard(concepts) {
@@ -49,39 +65,7 @@ function populateBoard(concepts) {
   }
 }
 
-$.get('data/medical_concepts.csv', function(data) {
-  var objects = $.csv.toObjects(data);
 
-  var groupingKey = 'Medical Concept';
-  for (var index = 0; index < objects.length; index++) {
-    var currentObject = objects[index];
-    var groupName = currentObject[groupingKey];
-    var group = groups[groupName];
-
-    if (group == null) {
-      group = [];
-      groups[groupName] = group;
-    }
-    group.push(currentObject);
-
-  }
-  // console.log(groups);
-
-  var i = 0;
-  for (var concept in groups) {
-    // console.log(concept);
-
-    $('.terms-list').append('<div class="concept" id="' + concept + '">' + concept + '</div>');
-    i++;
-
-    // console.log('hi ' + groups[concept][0]['Concept']);
-
-    // groups[concept]
-
-    // var concept2 = document.getElementById('concept2');
-    // concept2.innerText = concept;
-  }
-});
 
 
 // function groupData(data) {
@@ -102,4 +86,50 @@ $.get('data/medical_concepts.csv', function(data) {
 //   }
 //
 //   return groups;
+// }
+function startTimer(duration, display) {
+  var timer = duration,
+    minutes, seconds;
+
+  setInterval(function() {
+    minutes = parseInt(timer / 60, 10);
+    seconds = parseInt(timer % 60, 10);
+
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+    display.textContent = minutes + ":" + seconds;
+
+    if (--timer < 0) {
+      timer = duration;
+    }
+  }, 1000);
+
+}
+
+var startButton = document.getElementById('start');
+
+startButton.onclick = function() {
+  var twoMinutes = 60 * 2;
+  display = document.getElementById('timeLeft');
+  startTimer(twoMinutes, display);
+};
+
+
+// Random Utilities
+//
+// function elt(name, attributes) {
+//   var node = document.createElement(name);
+//   if (attributes) {
+//     for (var attr in attributes)
+//       if (attributes.hasOwnProperty(attr))
+//         node.setAttribute(attr, attributes[attr]);
+//   }
+//   for (var i = 2; i < arguments.length; i++) {
+//     var child = arguments[i];
+//     if (typeof child == "string")
+//       child = document.createTextNode(child);
+//     node.appendChild(child);
+//   }
+//   return node;
 // }

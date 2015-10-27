@@ -18,6 +18,10 @@
   </div> -->
   <div class="">
     <!-- board -->
+    <div class="timer">
+      <p>Time Left:</p>
+      <span class="time" id="timeLeft">2:00</span>
+    </div>
 <div class="terms-list">
     <h3>Select a medical concept</h3>
     <!-- <div class="concept" id="concept">Test</div>
@@ -34,14 +38,24 @@
     <div class="circle" id="b_circle">
         <p>Concept Relationships</p>
 
-        <div id="test" class="placeholder">&nbsp;</div> <!-- placeholder in top ring -->
+        <div id="test" class="placeholder deg0">&nbsp;</div>
+        <div id="test1" class="placeholder deg45">&nbsp;</div>
+        <div id="test2" class="placeholder deg90">&nbsp;</div>
+        <div id="test3" class="placeholder deg135">&nbsp;</div>
+        <div id="test4" class="placeholder deg180">&nbsp;</div>
+        <!-- placeholder in top ring -->
+
+
 
         <div class="circle" id="m_circle">
             <p>Concept Attributes</p>
             <div class="smallInput"></div>
             <div class="circle" id="s_circle">
                 <p>Concept</p>
-                <div class="placeholder_small">&nbsp;</div> <!-- placeholder in small circle -->
+                <div class="btn-wrapper">
+                <button id="start" class="concept">Start</button>
+                </div>
+                <!-- placeholder in small circle -->
             </div>
         </div>
     </div>
